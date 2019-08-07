@@ -8,7 +8,7 @@ class Song
 
   @@songs = []
 
-  def initialize(name)
+  def initialize
     @name = name
     @@songs << self
   end
